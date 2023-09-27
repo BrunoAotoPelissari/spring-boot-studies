@@ -18,12 +18,18 @@ Spring Boot is a widely used Java framework that simplifies the development of r
 
 ## Getting Started
 
-To run this project locally, follow these steps:
+### Requisites
+1. Java 17 or higher
+2. docker and docker-compose installed
+
+To run this project locally, you need to have follow the following:
+
 1. Clone the repository: `git clone https://github.com/BrunoAotoPelissari/spring-boot-studies`
 2. Navigate to the project directory: `cd spring-boot-studies`
-3. Build the project: `mvn clean install`
-4. Run the application: `java -jar target/spring-boot-studies.jar`
+3. run in your terminal `docker-compose up -d`
+4. run in your terminal `mvn spring-boot:run`
 
+To check if everything is running fine, you can access `localhost:8080/api/v1/student` and it should return a proper json response.
 
 ## Project Structure
 
